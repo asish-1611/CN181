@@ -1,0 +1,188 @@
+#button:hover {
+  transform: translateY(5px);
+  box-shadow: none;
+}
+#grammar:hover {
+  transform: translateY(5px);
+  box-shadow: none;
+}
+#writing:hover {
+  transform: translateY(5px);
+  box-shadow: none;
+}
+#pronounce:hover {
+  transform: translateY(5px);
+  box-shadow: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #000000;
+  overflow-x: hidden;
+  /* overflow-y: auto; */
+}
+#title {
+  padding-top: 2vh;
+  padding-left: 5vw;
+  display: flex;
+  flex-direction: row;
+  height: 44vh;
+  background-color: #3d4044;
+  background-image: url("black-gothic-victorian-pattern-4b6i34q2x1yaoe7e.jpg");
+  background-size: cover;
+  /* opacity: 0.25; */
+}
+#Englify {
+  font-family: Ancient;
+  font-stretch: extra-expanded;
+  font-size: 18vh;
+  color: white;
+  text-shadow: 3px 3px 7px black;
+}
+#subtitle {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 6vh;
+  font-weight: 1000;
+  background-size: 100%;
+  background-image: url("cherry-blossom-pink-hues-abstract-background-gradient-colors-design-applicable-for-website-banners-poster-sign-corporate-business-social-media-posts-header-landing-page-animation-motion-pictures-free-vector.jpg");
+  background-size: 18vh;
+  background-clip: text;
+  color: white;
+}
+
+#subsubtitle {
+  width: 24vw;
+  text-align: center;
+}
+#read {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3.5vh;
+  color: #aed2ff;
+  font-weight: 700;
+  animation: visibility1 3.5s ease-in 0s infinite;
+}
+#learn {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3.5vh;
+  color: #aed2ff;
+  font-weight: 700;
+  animation: visibility2 3.5s ease-in 0s infinite;
+}
+#solve {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3.5vh;
+  color: #aed2ff;
+  font-weight: 700;
+  animation: visibility3 3.5s ease-in 0s infinite;
+}
+
+#whyenglify {
+  width: 100vw;
+  margin: 80px 10px 0px 0px;
+  padding: 0 20px 0 0;
+  display: flex;
+  flex-direction: row;
+}
+#whycontent {
+  color: white;
+  font-size: 24px;
+  font-family: chalk;
+}
+#whytitle {
+  color: white;
+  font-size: 56px;
+  font-family: disney;
+}
+#buttoncontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#button {
+  font-family: chalk;
+  font-size: 30px;
+  width: 149px;
+  height: 67px;
+  border: solid 6px purple;
+  border-radius: 53px;
+  background-color: #495057;
+  color: white;
+  box-shadow: 0px 5px 10px rgb(121, 114, 114);
+  transition: all;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+#whycontentcontainer {
+  width: 60vw;
+  margin-left: 20px;
+}
+#whycontainer {
+  margin-left: 40px;
+}
+#Whygif {
+  width: 35vw;
+  margin-top: 20px;
+  display: inline;
+}
+#goalcontainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+#goal {
+  margin: 50px 0px 0px 60px;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#goaltitle {
+  color: white;
+  font-size: 56px;
+  font-family: disney;
+}
+#goalcontent {
+  color: white;
+  font-size: 24px;
+  font-family: chalk;
+}
+
+#goalimg {
+  width: 40vw;
+  margin-left: 40px;
+}
+#footcontainer {
+  margin: 0px 0px 0px 0px;
+}
+#footflex {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+}
+#li1 {
+  margin: 20px auto auto auto;
+  color: white;
+  line-height: 30px;
+  /* background-color: grey; */
+}
+#li2 {
+  margin: 20px auto auto auto;
+  color: white;
+  line-height: 30px;
+  /* background-color: grey; */
+}
+#li3 {
+  margin: 20px auto auto auto;
+  color: white;
+  line-height: 30px;
+  /* background-color: grey; */
+}
+#copyright {
+  color: white;
+  text-align: center;
+}
